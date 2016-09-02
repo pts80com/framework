@@ -15,7 +15,7 @@ public class xxxActivity extends BaseActivity
 - 实现其方法
 ```java
 @Override
-public int setLayoutResID() { return R.layout.activity_main;}
+public int setLayoutResID() { return R.layout.activity_xxx;}
 @Override
 public void initViews() {}
 @Override
