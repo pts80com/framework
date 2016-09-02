@@ -1,6 +1,6 @@
-# framework
+#framework
+
 Gradle
-------
 ```
 dependencies {
     ...
@@ -8,7 +8,6 @@ dependencies {
 }
 ```
 How To Use
-------
 - 继承BaseActivity
 ```java
 public class xxxActivity extends BaseActivity
