@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--app-->
+    <string-array name="titles">
+        <item>CircleImageView</item>
+        <item>RoundedImageView</item>
+        <item>Android-ConvenientBanner</item>
+    </string-array>
+    <!--RoundedImageView-->
+    <string-array name="action_list">
+        <item>Bitmap</item>
+        <item>Ovals</item>
+        <item>Select Corners</item>
+        <item>Picasso</item>
+        <item>Color</item>
+        <item>Background</item>
+    </string-array>
+</resources>

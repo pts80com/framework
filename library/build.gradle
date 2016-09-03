@@ -1,0 +1,40 @@
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion 24
+    buildToolsVersion "24.0.2"
+
+    defaultConfig {
+        minSdkVersion 13
+        targetSdkVersion 24
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    testCompile 'junit:junit:4.12'
+    compile 'com.android.support:appcompat-v7:24.2.0'
+    compile 'com.mcxiaoke.volley:library:1.0.19'//volley
+    compile 'com.squareup.picasso:picasso:2.5.2'//picasso
+    compile files('libs/universal-image-loader-1.9.5.jar')
+//    compile 'com.nostra13.universalimageloader:universal-image-loader:1.9.5'//Android-Universal-Image-Loader
+    compile 'de.hdodenhof:circleimageview:2.1.0'//圆形ImageView
+    compile 'com.makeramen:roundedimageview:2.2.1'//图片转圆角
+    compile 'com.zhy:base-adapter:3.0.3'//万能适配器(ForListView)
+    compile 'com.zhy:base-rvadapter:3.0.3'//万能适配器(ForRecyclerView)
+    compile 'com.bigkoo:convenientbanner:2.0.5'//ConvenientBanner
+    compile 'com.ToxicBakery.viewpager.transforms:view-pager-transforms:1.2.32@aar'//ViewPagerTransforms
+}
+
